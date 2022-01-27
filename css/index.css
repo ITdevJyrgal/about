@@ -11,6 +11,7 @@ body {
   color: #000000;
   font-family: "Jost", sans-serif;
   background: url("../img/motion.jpg") no-repeat center/cover;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -171,12 +172,13 @@ body {
 .card-social {
   display: flex;
   align-items: center;
-  padding: 0 26px;
+  padding: 10px 26px;
   margin-bottom: 30px;
 }
 .card-social svg {
-  fill: #ff0505;
-  width: 20px;
+  fill: #39f110;
+  width: 75%;
+  height: 100%;
   display: block;
   transition: 0.3s;
 }
@@ -193,7 +195,7 @@ body {
   margin-right: 10px;
 }
 .card-social a:hover svg {
-  fill: #637faa;
+  fill: #003a90;
 }
 .card-social a:last-child {
   margin-right: 0;
